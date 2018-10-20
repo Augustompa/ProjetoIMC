@@ -33,16 +33,17 @@ namespace TutorialLogin
        #endregion   
 
        #region"funciones"
-       public bool ValidarLogin(string u, string c)
+       public bool ValidarLogin(string usuario, string senha)
        {
 
-           string cadenaconexion = "Server=localhost;Database=bdprojeto; Uid=root;Pwd=;port=3306;";
-           MySqlConnection con = new MySqlConnection(cadenaconexion);
+           string cadeiaconexao = "Server=localhost;Database=bdprojeto; Uid=root;Pwd=;port=3306;";
+           MySqlConnection con = new MySqlConnection(cadeiaconexao);
            con.Open();
            MySqlCommand cmd;
            MySqlDataReader dr;
+           
 
-           string sql = "SELECT * FROM tblLogin WHERE email = '"+u+"' and senha ='"+c+ "' ";
+           string sql = "SELECT * FROM tblusuario WHERE email = '"+usuario+"' and senha ='"+senha+ "' ";
            cmd = new MySqlCommand(sql, con);
            dr = cmd.ExecuteReader();
 
@@ -56,12 +57,12 @@ namespace TutorialLogin
            }
            else
            {
-               MessageBox.Show("Usuario y/o contraseña incorrecto");
+               MessageBox.Show("Usuario ou senha incorretos");
 
                return false;
            }
 
-           return false;
+       
 
 
 

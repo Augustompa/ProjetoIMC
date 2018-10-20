@@ -21,3 +21,28 @@ C:\Users\augus\Desktop\TutorialLogin\TutorialLogin\obj\Debug\TutorialLogin.cspro
 C:\Users\augus\Desktop\TutorialLogin\TutorialLogin\obj\Debug\TutorialLogin.csproj.CopyComplete
 C:\Users\augus\Desktop\TutorialLogin\TutorialLogin\obj\Debug\TutorialLogin.exe
 C:\Users\augus\Desktop\TutorialLogin\TutorialLogin\obj\Debug\TutorialLogin.pdb
+C:\Users\augus\Desktop\TutorialLogin\ProjetoIMC\TutorialLogin\bin\Debug\TutorialLogin.exe.config
+C:\Users\augus\Desktop\TutorialLogin\ProjetoIMC\TutorialLogin\bin\Debug\TutorialLogin.exe
+C:\Users\augus\Desktop\TutorialLogin\ProjetoIMC\TutorialLogin\bin\Debug\TutorialLogin.pdb
+C:\Users\augus\Desktop\TutorialLogin\ProjetoIMC\TutorialLogin\obj\Debug\TutorialLogin.csprojAssemblyReference.cache
+C:\Users\augus\Desktop\TutorialLogin\ProjetoIMC\TutorialLogin\obj\Debug\TutorialLogin.Form1.resources
+C:\Users\augus\Desktop\TutorialLogin\ProjetoIMC\TutorialLogin\obj\Debug\TutorialLogin.Principal.resources
+C:\Users\augus\Desktop\TutorialLogin\ProjetoIMC\TutorialLogin\obj\Debug\TutorialLogin.Properties.Resources.resources
+C:\Users\augus\Desktop\TutorialLogin\ProjetoIMC\TutorialLogin\obj\Debug\TutorialLogin.csproj.GenerateResource.cache
+C:\Users\augus\Desktop\TutorialLogin\ProjetoIMC\TutorialLogin\obj\Debug\TutorialLogin.csproj.CoreCompileInputs.cache
+C:\Users\augus\Desktop\TutorialLogin\ProjetoIMC\TutorialLogin\obj\Debug\TutorialLogin.csproj.CopyComplete
+C:\Users\augus\Desktop\TutorialLogin\ProjetoIMC\TutorialLogin\obj\Debug\TutorialLogin.exe
+C:\Users\augus\Desktop\TutorialLogin\ProjetoIMC\TutorialLogin\obj\Debug\TutorialLogin.pdb
+C:\Users\augus\Desktop\Trabalho Tanji\ProjetoIMC\TutorialLogin\obj\Debug\TutorialLogin.csprojAssemblyReference.cache
+C:\Users\augus\Desktop\Trabalho Tanji\ProjetoIMC\TutorialLogin\obj\Debug\TutorialLogin.Cadastro.resources
+C:\Users\augus\Desktop\Trabalho Tanji\ProjetoIMC\TutorialLogin\obj\Debug\TutorialLogin.Form1.resources
+C:\Users\augus\Desktop\Trabalho Tanji\ProjetoIMC\TutorialLogin\obj\Debug\TutorialLogin.Principal.resources
+C:\Users\augus\Desktop\Trabalho Tanji\ProjetoIMC\TutorialLogin\obj\Debug\TutorialLogin.Properties.Resources.resources
+C:\Users\augus\Desktop\Trabalho Tanji\ProjetoIMC\TutorialLogin\obj\Debug\TutorialLogin.csproj.GenerateResource.cache
+C:\Users\augus\Desktop\Trabalho Tanji\ProjetoIMC\TutorialLogin\obj\Debug\TutorialLogin.csproj.CoreCompileInputs.cache
+C:\Users\augus\Desktop\Trabalho Tanji\ProjetoIMC\TutorialLogin\obj\Debug\TutorialLogin.exe
+C:\Users\augus\Desktop\Trabalho Tanji\ProjetoIMC\TutorialLogin\obj\Debug\TutorialLogin.pdb
+C:\Users\augus\Desktop\Trabalho Tanji\ProjetoIMC\TutorialLogin\bin\Debug\TutorialLogin.exe.config
+C:\Users\augus\Desktop\Trabalho Tanji\ProjetoIMC\TutorialLogin\bin\Debug\TutorialLogin.exe
+C:\Users\augus\Desktop\Trabalho Tanji\ProjetoIMC\TutorialLogin\bin\Debug\TutorialLogin.pdb
+C:\Users\augus\Desktop\Trabalho Tanji\ProjetoIMC\TutorialLogin\obj\Debug\TutorialLogin.csproj.CopyComplete

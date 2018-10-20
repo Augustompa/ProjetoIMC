@@ -22,13 +22,20 @@ namespace TutorialLogin
             Login lg = new Login();
 
             lg.Usuario = txtUsuario.Text;
-            lg.Contraseña = txtContraseña.Text;
+            lg.Contraseña = txtSenha.Text;
 
             if(lg.ValidarLogin(lg.Usuario, lg.Contraseña))
             {
                 Principal pl = new Principal();
                 pl.Show();
             }
+        }
+
+        private void linkCadastro_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Cadastro cadastro = new Cadastro();
+            cadastro.Show();
+
         }
     }
 }
