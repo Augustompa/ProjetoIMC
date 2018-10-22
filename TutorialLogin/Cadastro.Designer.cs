@@ -151,7 +151,7 @@ namespace TutorialLogin
         private System.Windows.Forms.TextBox txtID;
         private System.Windows.Forms.Label label1;
 
-        public EventHandler Cadastro_Load { get; private set; }
+        
         public EventHandler label1_Click { get; private set; }
     }
 }

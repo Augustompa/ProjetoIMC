@@ -38,6 +38,7 @@ namespace TutorialLogin
                 int i = cmd.ExecuteNonQuery();
                 if (i > 0)
                     MessageBox.Show("Cadastro realizado com sucesso!");
+                this.Close();
             }
             catch (Exception ex)
             {
@@ -51,6 +52,11 @@ namespace TutorialLogin
 
 
 
+
+        }
+
+        private void Cadastro_Load(object sender, EventArgs e)
+        {
 
         }
     }
