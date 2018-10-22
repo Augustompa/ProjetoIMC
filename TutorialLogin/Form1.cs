@@ -28,7 +28,9 @@ namespace TutorialLogin
             {
                 Principal pl = new Principal();
                 pl.Show();
+                
             }
+            
         }
 
         private void linkCadastro_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
