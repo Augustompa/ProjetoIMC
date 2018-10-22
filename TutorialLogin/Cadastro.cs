@@ -19,58 +19,38 @@ namespace TutorialLogin
             InitializeComponent();
         }
 
-        MySqlConnection Sqlcon = null;
-        private string  Strcon = "Server=localhost;Database=bdprojeto; Uid=root;Pwd=;port=3306;";
-        private string Strsql = string.Empty;
-        MySqlCommand cmd;
-        MySqlDataReader dr;
-       
+        String connectionString = "Server=localhost;Database=bdprojeto; Uid=root;Pwd=;port=3306;";
+        bool novo;
 
 
-        private void brnCadastrar_Click(object sender, EventArgs e)
+        private void BrnCadastrar_Click(object sender, EventArgs e)
         {
 
-            cmd = new MySqlCommand(Strcon, Sqlcon);
 
-
-
-            string Strsql = "insert into (id,email,senha,nome) values (@id,@email,@senha,@nome)";
-            Sqlcon = new MySqlConnection(Strcon);
-            MySqlCommand con = new MySqlCommand(Strsql, Sqlcon);
-
-
-
-            con.Parameters.AddWithValue("@id", txtID.Text);
-            con.Parameters.AddWithValue("@email", txtUsuario.Text);
-            con.Parameters.AddWithValue("@senha", txtSenha.Text);
-            con.Parameters.AddWithValue("@nome", txtNome.Text);
+            string sql = "INSERT INTO tblusuario (id, email, senha, nome) " + "VALUES ('" + txtID.Text + "', '" + txtUsuario.Text + "', '" + txtSenha.Text + "', '" + txtNome.Text + "')";
+            MySqlConnection con = new MySqlConnection(connectionString);
+            MySqlCommand cmd = new MySqlCommand(sql, con);
+            cmd.CommandType = CommandType.Text;
+            con.Open();
             
-
             try
             {
-
-                Sqlcon.Open();
-                MessageBox.Show("Conexao aberta");
-                con.ExecuteNonQuery();
-                
-
-                MessageBox.Show("Usuario cadastrado com sucesso!");
-
-                Principal pr = new Principal();
-
-                pr.Show();
-
-
+                int i = cmd.ExecuteNonQuery();
+                if (i > 0)
+                    MessageBox.Show("Cadastro realizado com sucesso!");
             }
-            catch(Exception erro)
+            catch (Exception ex)
             {
-                MessageBox.Show("Erro ao cadastrar usuário");
-                erro.GetBaseException();
+                MessageBox.Show("Erro: " + ex.ToString());
             }
-        }
+            finally
+            {
+                con.Close();
+            }
 
-        private void Label1_Click(object sender, EventArgs e)
-        {
+
+
+
 
         }
     }

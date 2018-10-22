@@ -49,7 +49,7 @@ namespace TutorialLogin
             this.brnCadastrar.TabIndex = 0;
             this.brnCadastrar.Text = "Cadastrar";
             this.brnCadastrar.UseVisualStyleBackColor = true;
-            this.brnCadastrar.Click += new System.EventHandler(this.brnCadastrar_Click);
+            this.brnCadastrar.Click += new System.EventHandler(this.BrnCadastrar_Click);
             // 
             // lblNome
             // 
@@ -114,7 +114,6 @@ namespace TutorialLogin
             this.label1.Size = new System.Drawing.Size(18, 13);
             this.label1.TabIndex = 8;
             this.label1.Text = "ID";
-            this.label1.Click += new System.EventHandler(this.Label1_Click);
             // 
             // Cadastro
             // 
@@ -132,6 +131,7 @@ namespace TutorialLogin
             this.Controls.Add(this.brnCadastrar);
             this.Name = "Cadastro";
             this.Text = "Cadastro";
+            this.Load += new System.EventHandler(this.Cadastro_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

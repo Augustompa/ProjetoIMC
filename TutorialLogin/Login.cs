@@ -10,9 +10,12 @@ namespace TutorialLogin
 {
    public  class Login
    {
-       #region"atributos"
-       string usuario;
-       string contraseña;
+        #region"atributos"
+        private string usuario;
+            private string senha;
+            private string nome;
+            private int id;
+
 
        #endregion
 
@@ -24,15 +27,27 @@ namespace TutorialLogin
            get { return usuario; }
        }
 
-       public string Contraseña
+       public string Senha
        {
-           set { contraseña = value; }
-           get { return contraseña; }
+           set { senha = value; }
+           get { return senha; }
        }
+
+        public string Nome
+        {
+            set { nome = value; }
+            get { return senha;}
+        }
+
+        public string Id
+        {
+            set { Id = value;}
+            get { return Id;}
+        }
 
        #endregion   
 
-       #region"funciones"
+       #region"funcões"
        public bool ValidarLogin(string usuario, string senha)
        {
 
@@ -64,12 +79,10 @@ namespace TutorialLogin
 
        
 
-
-
-
-
-
+                                      
        }
+
+       
        #endregion
    }
 }

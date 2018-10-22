@@ -22,9 +22,9 @@ namespace TutorialLogin
             Login lg = new Login();
 
             lg.Usuario = txtUsuario.Text;
-            lg.Contraseña = txtSenha.Text;
+            lg.Senha = txtSenha.Text;
 
-            if(lg.ValidarLogin(lg.Usuario, lg.Contraseña))
+            if(lg.ValidarLogin(lg.Usuario, lg.Senha))
             {
                 Principal pl = new Principal();
                 pl.Show();
@@ -37,5 +37,7 @@ namespace TutorialLogin
             cadastro.Show();
 
         }
+
+       
     }
 }
