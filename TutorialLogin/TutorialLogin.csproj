@@ -48,34 +48,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cadastro.cs">
+    <Compile Include="View\Cadastro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cadastro.Designer.cs">
+    <Compile Include="View\Cadastro.Designer.cs">
       <DependentUpon>Cadastro.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="View\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="View\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs" />
-    <Compile Include="Principal.cs">
+    <Compile Include="Controller\Login.cs" />
+    <Compile Include="View\Principal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Principal.Designer.cs">
+    <Compile Include="View\Principal.Designer.cs">
       <DependentUpon>Principal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="Controller\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Cadastro.resx">
+    <EmbeddedResource Include="View\Cadastro.resx">
       <DependentUpon>Cadastro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="View\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Principal.resx">
+    <EmbeddedResource Include="View\Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -99,6 +99,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
